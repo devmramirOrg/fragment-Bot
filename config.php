@@ -33,7 +33,7 @@ $chaneljoin4  = "";
 //------- Function -------  
 function bot($method, $user = []){
     global $token;
-$url = "https://tapi.bale.ai/bot$token"."/" . $method;
+$url = "https://api.telegram.org/bot$token"."/" . $method;
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

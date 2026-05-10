@@ -6,9 +6,9 @@
 //-------------------------
 
 $serverName = "localhost"; // IP کانتینر MySQL
-$db_name    = "alateami_fragment";  // نام دیتابیس
-$db_user    = "alateami_fragment";       // یوزر که ساختی
-$db_pass    = 'GDFG%$g^#^H524545'; // پسورد
+$db_name    = "";  // نام دیتابیس
+$db_user    = "";       // یوزر که ساختی
+$db_pass    = ''; // پسورد
 
 try {
     $pdo = new PDO("mysql:host=$serverName;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass, [
@@ -20,13 +20,13 @@ try {
 } catch (PDOException $e) {
     die("❌ خطا در اتصال: " . $e->getMessage());
 }
-//------- Data -------
-$token        = "2021312070:AJcfyAgOUjWs1OB0iSWMeliBox6ye-UotD4"; // توکن ربات
-$admin        = "544316811"; // عددی ادمین
-$bot_id       = "irancreatbot";
-$web          = "https://devmramir.sbs/irancreat";
+//------- Data ------- 
+$token        = ""; // Bot Token
+$admin        = "544316811"; // Admin Id
+$bot_id       = "irancreatbot"; // Bot Id
+$web          = "https://devmramir.sbs/irancreat"; // Your Url
 $chanSef      = "-";
-$chaneljoin   = "";
+$chaneljoin   = ""; 
 $chaneljoin2  = "";
 $chaneljoin3  = "";
 $chaneljoin4  = "";

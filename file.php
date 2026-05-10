@@ -634,8 +634,8 @@ function jalali_to_gregorian($jy,$jm,$jd,$mod=''){
 
 // --------------------------------
 // Admin : @DevMrAmir
-// Chanell : @LintoCode
-// Site : CoffeMizban.com
+// Chanell : @AlaCode
+// Site : AlaTeam.ir
 // منبع بزن دمت گرم
 // --------------------------------
 

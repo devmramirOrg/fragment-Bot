@@ -2,7 +2,7 @@
 
 //-------------------------
 // Dev : @DevMrAmir
-// Channel : @AlaCode
+// Channel Telegram : @AlaCode
 //-------------------------
 
 $serverName = "localhost"; // IP کانتینر MySQL

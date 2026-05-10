@@ -322,16 +322,16 @@ $back           = '◀️ بازگشت';
 
 if($data == "ozvshodam"){
 
-$forchaneel = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin&user_id=".$chat_id));
+$forchaneel = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin&user_id=".$chat_id));
 $tch = $forchaneel->result->status;
 
-$forchaneel2 = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin2&user_id=".$chat_id));
+$forchaneel2 = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin2&user_id=".$chat_id));
 $tch2 = $forchaneel2->result->status;
 
-$forchaneel3 = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin3&user_id=".$chat_id));
+$forchaneel3 = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin3&user_id=".$chat_id));
 $tch3 = $forchaneel3->result->status;
 
-$forchaneel4 = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin4&user_id=".$chat_id));
+$forchaneel4 = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin4&user_id=".$chat_id));
 $tch4 = $forchaneel4->result->status;
 
 if(
@@ -363,16 +363,16 @@ if(
     }
 }
 
-$forchaneel = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin&user_id=".$chat_id));
+$forchaneel = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin&user_id=".$chat_id));
 $tch = $forchaneel->result->status;
 
-$forchaneel2 = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin2&user_id=".$chat_id));
+$forchaneel2 = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin2&user_id=".$chat_id));
 $tch2 = $forchaneel2->result->status;
 
-$forchaneel3 = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin3&user_id=".$chat_id));
+$forchaneel3 = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin3&user_id=".$chat_id));
 $tch3 = $forchaneel3->result->status;
 
-$forchaneel4 = json_decode(file_get_contents("https://tapi.bale.ai/bot$token/getChatMember?chat_id=@$chaneljoin4&user_id=".$chat_id));
+$forchaneel4 = json_decode(file_get_contents("https://api.telegram.org/bot$token/getChatMember?chat_id=@$chaneljoin4&user_id=".$chat_id));
 $tch4 = $forchaneel4->result->status;
 
 if ($chat_id != $admin){

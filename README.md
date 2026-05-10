@@ -71,3 +71,23 @@ https://YourDomain.com/YourFileName/table.php
 https://api.telegram.org/botYOURTOKEN/setwebhook?url=https://yourdomain.com/yourfilename/index.php
 ```
 - YOURTOKEN : Your Telegram ‌Bot Token
+
+## 🌐 Connect with Us
+
+<div align="center">
+
+| | |
+|:---:|:---:|
+| 📢 **Official Channel** | 👨‍💻 **Developer** |
+| [**@alacode**](https://t.me/alacode) | [**@devmramir**](https://t.me/devmramir) |
+
+---
+
+
+[![Join Telegram Channel](https://img.shields.io/badge/Join_Our_Channel-@alacode-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/alacode)
+
+[![Contact Developer](https://img.shields.io/badge/Contact_Developer-@devmramir-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/devmramir)
+
+> 💬 **For support, updates, and more bots, join our Telegram channel!**
+
+</div>
